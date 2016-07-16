@@ -43,7 +43,7 @@ int main(int argc, char** argv)
 {
 	int x;
 	int ret;
-	printf("Advance Copying Executable!\nUsage: ace.exe [file to copy] [-d [name of output filename list]] [output filename(s)]\n");
+	printf("Advance Copying Executable!\nUsage: ace [file to copy] [-d [name of output filename list]] [output filename(s)]\n");
 	ret = read(argv[1]);
 	if(ret != 0)
 	{
